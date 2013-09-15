@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Script detects system architecture, then downloads and installs the appropriate Medibuntu repo. 
+# Script detects system architecture, then downloads and installs the appropriate Medibuntu repository.. 
 
 shopt -s nocasematch
 echo
-echo "This script installs the Medibuntu reposito of packages. There may be some legal restriction on its use depending upon your jurisditcion. Please proceed with caution."
+echo "This script installs the Medibuntu repo of packages. There may be some legal restriction on its use depending upon your jurisditcion. Please proceed with caution."
 echo
 read -p "Do you wish to continue? (Y/N): "
 
