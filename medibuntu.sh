@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script detects system architecture, then downloads and installs the appropriate medibuntu repo. 
+# Script detects system architecture, then downloads and installs the appropriate Medibuntu repo. 
 
 shopt -s nocasematch
 echo
