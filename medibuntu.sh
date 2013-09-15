@@ -4,9 +4,9 @@
 
 shopt -s nocasematch
 echo
-echo "This script installs the Medibuntu repo of packages. There may be some legal restriction on its use depending upon your jurisditcion. Please proceed with caution."
+echo "This script installs the Medibuntu repo of packages. There may be some legal restriction on its use depending upon your jurisdiction. Please proceed with caution."
 echo
-read -p "Do you wish to continue? (Y/N): "
+read -p "Are you sure you want to continue? (Y/N): "
 
 case $REPLY in
 y|yes) # If Yes, Continue with script
@@ -31,6 +31,6 @@ y|yes) # If Yes, Continue with script
   esac ;;
  
 *) # If not Yes, terminate script
-  echo "You must answer Yes to continue.  Terminating script"
+  echo "You must answer Yes to continue. Adios!"
   ;;
 esac
